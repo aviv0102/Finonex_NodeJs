@@ -5,7 +5,10 @@
   "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server.js"
+    "server": "node src/server.js",
+    "client": "node src/client.js",
+    "processor": "node src/data_processor.js"
+
   },
   "keywords": [],
   "author": "",
